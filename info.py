@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27505575'))
-API_HASH = environ.get('API_HASH', '03bbc5e15dbddfb03fb953435b5eb028')
+API_ID = int(environ.get('API_ID', '25616977'))
+API_HASH = environ.get('API_HASH', '6b3ab4e771f4c721ed2cfe467182b12a')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7017297493:AAGU3hd4oa_UjVORRh7ySxc7lzRymfz3KY0")
 
 # Bot settings
@@ -125,7 +125,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://silent-hours-21d3318634f3.herokuapp.com/")
+URL = environ.get("URL", "https://silenthours-aafb7a70df0d.herokuapp.com/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
