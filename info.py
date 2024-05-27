@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7017297493:AAGU3hd4oa_UjVORRh7ySxc7lzRymfz
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/ebad2eb29a3d2702e1531.jpg https://telegra.ph/file/5250452a1ab5364cfc4dc.jpg https://telegra.ph/file/68a707b00e8e88ed3c4a4.jpg https://telegra.ph/file/f44b3f7381cbf2e7708bb.jpg https://telegra.ph/file/4aaa6122c1fe3b71cf52c.jpg https://telegra.ph/file/486a9c2e80ed1729a345f.jpg https://telegra.ph/file/b165f958d038b903d43e1.jpg https://telegra.ph/file/989a744a60c061838444f.jpg https://telegra.ph/file/ff8f67820985179067982.jpg https://telegra.ph/file/3d8c714a3b0c04bfdec7e.jpg https://telegra.ph/file/fd0e1a19b0268c005edf8.jpg https://telegra.ph/file/8cfe0b5ceaa7b969448c4.jpg https://telegra.ph/file/5965fb86394de52b45e31.jpg https://telegra.ph/file/b826e4fabf1bf0fa72db3.jpg https://telegra.ph/file/baba127a57d74bc19e956.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/94e68719016a4086305d4.jpg https://telegra.ph/file/4544cfcfae2540582d7e4.jpg https://telegra.ph/file/3c3719f8fd0763cf39dee.jpg https://telegra.ph/file/eedf592808e1fadd5d09a.jpg https://telegra.ph/file/eedf592808e1fadd5d09a.jpg https://telegra.ph/file/67a3c6f2b74835959d12e.jpg https://telegra.ph/file/b9279bf8cfeccd4e5a377.jpg https://telegra.ph/file/30f97b90ad1112a365750.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -65,8 +65,8 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'silent_amv') # owner username wi
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/silentmoviessearch')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/silenthours_backup')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtolinksopne')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/howtolinksopne')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/silenthours_backup/9')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/silenthours_backup/9')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'silenthours_backup') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -86,7 +86,7 @@ SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
