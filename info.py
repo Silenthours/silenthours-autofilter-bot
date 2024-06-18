@@ -70,7 +70,7 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/silenthours_backu
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'silenthours_backup') # Support Chat Link Without https:// or @
 
 # True Or False
-PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
+PM_SEARCH = bool(environ.get('PM_SEARCH', False)) # In Pm Search Currently Spell Check Doesn't Work.
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 VERIFY = bool(environ.get('VERIFY', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
@@ -90,8 +90,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '760615c59a2a8723d5b2e85a8ccc42f58170fecc')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '91e12b124ce9bb9c00b1fd4c8a1348d07603b193')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
