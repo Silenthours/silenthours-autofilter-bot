@@ -64,9 +64,9 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'silent_amv') # owner username wi
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/silentmoviessearch')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/silenthours_backup/16')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/silenthours_backup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/silenthours_backup/16')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/silenthours_backup/9')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/silenthours_backup/16')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'silenthours_backup') # Support Chat Link Without https:// or @
 
 # True Or False
