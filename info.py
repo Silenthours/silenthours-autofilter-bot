@@ -138,7 +138,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "")
+URL = environ.get("URL", "upper-madalyn-silentfilestorebot-081b41a4.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
